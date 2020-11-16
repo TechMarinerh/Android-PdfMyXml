@@ -83,7 +83,7 @@ public class PdfDocument implements IDisposable{
      * the document orientation, contains aspect ratio info
      */
     public enum A4_MODE {
-        PORTRAIT(0.707f, A4.PORTRAIT), LANDSCAPE(1.41f, A4.LANDSCAPE), CUSTOM_QR(1.289f, new float[]{321.0F, 249.0F});
+        PORTRAIT(0.707f, A4.PORTRAIT), LANDSCAPE(1.41f, A4.LANDSCAPE), CUSTOM_QR(1.284f, new float[]{2124.0F, 1654.0F});
 
         private float   _ar;
         private float[] _a4 = null;
